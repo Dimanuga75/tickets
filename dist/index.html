@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="files/reset.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Главная</title>
+</head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <form class="form">
+        <div class="point">
+          <select name="route" id="route">
+            <option value="">Выберите направление</option>
+            <option class="first" value="из A в B">из A в B</option>
+            <option value="из B в A">из B в A</option>
+            <option value="из A в B и обратно в А">
+              из A в B и обратно в А
+            </option>
+          </select>
+        </div>
+        <div class="label__A">
+          <select name="time-A" id="time-A">
+            <option class="pro" value="Выберите время из A в B">
+              Выберите время из A в B
+            </option>
+          </select>
+        </div>
+        <div class="label__B">
+          <select name="time-B" id="time-B">
+            <option value="Выберите время из B в A">
+              Выберите время из B в A
+            </option>
+          </select>
+        </div>
+        <div class="tickets__number">
+          <label for="num">Количество билетов</label>
+          <input id="num" />
+          <button class="submit">Посчитать</button>
+        </div>
+      </form>
+      <div class="answer"></div>
+    </main>
+    <footer></footer>
+
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

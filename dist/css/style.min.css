@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Banty Bold;
+  font-display: swap;
+  src: url("../fonts/Banty Bold.woff2") format("woff2"), url("../fonts/Banty Bold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: BriosoPro Italic;
+  font-display: swap;
+  src: url("../fonts/BriosoPro Italic.woff2") format("woff2"), url("../fonts/BriosoPro Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: BriosoPro Italic;
+}
+
+.form {
+  margin-top: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  column-gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.label__B {
+  display: none;
+}
+
+.label__A {
+  display: none;
+}
+
+.submit {
+  background: linear-gradient(184.53deg, #f9a43f 5.27%, #fb791b 91.78%);
+  border-radius: 14px;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.answer {
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.answer__item {
+  margin-bottom: 10px;
+}
+
+#num {
+  border: 1px solid #f9a43f;
+  max-width: 50px;
+  margin-right: 20px;
+}
